@@ -19,8 +19,6 @@ Each signal is created over a finite range of integers `n = -10:10` and plotted 
 - A single spike at `n=0`.
 - Used as a fundamental building block in discrete systems.
 
-![Unit Impulse](figures/impulse.png)
-
 ---
 
 ### 2. Unit Step (u[n])
@@ -33,8 +31,6 @@ Each signal is created over a finite range of integers `n = -10:10` and plotted 
   \end{cases}
   \]
 - Turns “on” at `n=0`.
-
-![Unit Step](figures/step.png)
 
 ---
 
@@ -49,8 +45,6 @@ Each signal is created over a finite range of integers `n = -10:10` and plotted 
   \]
 - Increases linearly for positive `n`.
 
-![Unit Ramp](figures/ramp.png)
-
 ---
 
 ### 4. Exponential Signal (aⁿ)
@@ -60,8 +54,6 @@ Each signal is created over a finite range of integers `n = -10:10` and plotted 
   x[n] = a^n u[n]
   \]
 - Example used here: \( a = 0.8 \), which creates a decaying exponential.
-
-![Exponential](figures/exponential.png)
 
 ---
 
@@ -77,8 +69,6 @@ Each signal is created over a finite range of integers `n = -10:10` and plotted 
   \]
 - Represents the sign of `n`.
 
-![Signum](figures/signum.png)
-
 ---
 
 ### 6. Sinc Function
@@ -88,8 +78,6 @@ Each signal is created over a finite range of integers `n = -10:10` and plotted 
   \text{sinc}[n] = \frac{\sin(\pi n)}{\pi n}, \quad \text{sinc}[0] = 1
   \]
 - Appears in signal processing and sampling theory.
-
-![Sinc](figures/sinc.png)
 
 ---
 
